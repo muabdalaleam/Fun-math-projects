@@ -64,9 +64,9 @@ public class mandelbrotSet extends PApplet {
                     G = (int) map(brightness, 0, 1, 200, 255);
                     B = (int) map(brightness, 0, 1, 100, 255);
                 }
-                
+
                 int pix = x + y * width;
-                
+
                 pixels[pix] = color(R, G, B);
                 // ======================================================
             }
